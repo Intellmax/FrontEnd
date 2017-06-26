@@ -49,7 +49,7 @@ class Student:
     def __eq__(self, other):
         return self.name == other.name and self.birthdate == other.birthdate and self.email == other.email
     def __str__(self):
-        return "Student "+str(self.name)+str(self.birthdate)+str(self.email)
+        return "Student "+str(self.name)+ " " + str(self.birthdate)+ " " + str(self.email)
     def age (self):
         return date.today().year - self.birthdate.year
 
