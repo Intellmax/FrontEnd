@@ -1,0 +1,119 @@
+body {
+  background: url("https://media.giphy.com/media/lMsno4EW5kPMA/giphy.gif");
+  background-size: 100%;
+  
+}
+
+#signature {
+  margin-left: 60em;
+  margin-bottom: 1em;
+  
+}
+.photo1 {
+  margin-left: 34em;
+  
+  position: relative;
+	width: 100%;
+  
+}
+#formula {
+  position: absolute;
+	top: 0em;
+	left: 5.7em;
+	color: white;
+  font-size: 3em;
+  font-family: "Cinzel";
+ 
+  
+}
+#header {
+  font-family: "Monoton";
+  font-size: 7em;
+  
+  text-align: center;
+  border-style: double;
+  border-width: 5px;
+  color: white;
+  border-color: black;
+  
+  
+  
+}
+.box h3 {
+  font-family: "Amatic+SC";
+  
+  
+}
+
+
+.box {
+  background-color: #A9A9A9;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.life {
+  font-family: "Amatic+SC";
+  text-align: center;
+  
+}
+.periods {
+  text-align: justify;
+  margin-right: 1em;
+  
+  
+}
+
+
+
+
+
+.gallery {
+  width: 650px;
+  margin: 0 auto;
+  
+  
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  margin: 30px;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 220px;
+  height: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+#final {
+  text-align: center;
+  font-family: "Libre Barcode 39 Text";
+  font-size: 5em;
+  color: white;
+}
+span {
+  color: red;
+}
